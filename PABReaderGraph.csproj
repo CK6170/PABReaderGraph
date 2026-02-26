@@ -11,8 +11,8 @@
     <ApplicationIcon>Shekel.ico</ApplicationIcon>
     <Company>Shekel Scales 2008 LTD</Company>
     <Authors>Claudio Kudlach</Authors>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <FileVersion>1.3.0.0</FileVersion>
   </PropertyGroup>
   
 <ItemGroup>

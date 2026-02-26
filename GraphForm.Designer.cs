@@ -78,26 +78,5 @@
 
         #endregion
 
-        private ScottPlot.WinForms.FormsPlot formsPlot;
-        private System.Windows.Forms.Panel panelTop;
-        private System.Windows.Forms.FlowLayoutPanel panelBottom;
-        private System.Windows.Forms.Button buttonZero;
-        private System.Windows.Forms.Button buttonRestart;
-        private System.Windows.Forms.Button buttonExit;
-        private System.Windows.Forms.Button buttonExitAll;
-        private System.Windows.Forms.Label labelStatus;
-        private System.Windows.Forms.Label labelHeaders;
-        private System.Windows.Forms.Panel labelValuesPanel;
-        private System.Windows.Forms.Label labelAdcValues;
-        private System.Windows.Forms.Label labelFactors;
-        private System.Windows.Forms.Label labelZeroOffsets;
-        private System.Windows.Forms.Label labelRecord;
-        private System.Windows.Forms.Label labelElapsed;
-        private System.Windows.Forms.Label labelLC1;
-        private System.Windows.Forms.Label labelLC2;
-        private System.Windows.Forms.Label labelLC3;
-        private System.Windows.Forms.Label labelLC4;
-        private System.Windows.Forms.Label labelTotal;
-
     }
 }

@@ -21,6 +21,9 @@ bld/
 [Oo]bj/
 [Ll]og/
 
+# Publish output
+publish/
+
 # Visual Studio cache files
 *.VC.db
 *.VC.VC.opendb
