@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageIcon>shekel.jpg</PackageIcon>
+    <AssemblyName>PABReader</AssemblyName>
+    <ApplicationIcon>Shekel.ico</ApplicationIcon>
+    <Company>Shekel Scales 2008 LTD</Company>
+    <Authors>Claudio Kudlach</Authors>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+  </PropertyGroup>
+  
+<ItemGroup>
+  <AssemblyMetadata Include="Authors" Value="Claudio Kudlach" />
+</ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Shekel.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\shekel.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ScottPlot.WinForms" Version="5.0.55" />
+    <PackageReference Include="System.IO.Ports" Version="10.0.0-preview.5.25277.114" />
+  </ItemGroup>
+
+</Project>
