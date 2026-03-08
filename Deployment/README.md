@@ -2,7 +2,7 @@
 ## Version 1.3.0 - Production Deployment Package
 
 ### 🎯 Professional Load Cell Monitoring System
-PAB Reader Graph is an enterprise-ready monitoring application for Portable Analysis Board (PAB) devices with comprehensive data acquisition, real-time visualization, and session management capabilities.
+PAB Reader Graph is an enterprise-ready monitoring application for Product Aware Board (PAB) devices with comprehensive data acquisition, real-time visualization, and session management capabilities.
 
 ## 📦 Deployment Package Contents
 - `PABReader.exe` - Self-contained single file executable (64.5 MB)
@@ -14,13 +14,13 @@ PAB Reader Graph is an enterprise-ready monitoring application for Portable Anal
 ### System Requirements
 - Windows 10 version 1909 or later / Windows 11
 - 64-bit (x64) architecture
-- Available USB/Serial ports for PAB device communication
+- Available USB/Serial ports for PAB (Product Aware Board) device communication
 - Minimum 100 MB free disk space
 
 ### Installation Steps
 1. **Download**: Copy `PABReader.exe` to desired installation directory
 2. **Run**: Double-click `PABReader.exe` to launch
-3. **Configure**: Complete device settings in the startup dialog
+3. **Configure**: Complete Product Aware Board device settings in the startup dialog
 4. **Monitor**: Begin real-time PAB device monitoring
 
 *No additional installation, registry modifications, or .NET runtime installation required.*
@@ -31,14 +31,14 @@ PAB Reader Graph is an enterprise-ready monitoring application for Portable Anal
 - **Real-time Data Acquisition**: Live monitoring of 4-channel load cell data
 - **Professional Visualization**: High-performance plotting with ScottPlot integration  
 - **Session Management**: Complete data export (JSON, CSV, PNG) with timestamped organization
-- **Multi-Port Support**: Simultaneous monitoring of multiple PAB devices
+- **Multi-Port Support**: Simultaneous monitoring of multiple Product Aware Board devices
 - **Calibration Management**: Zero calibration with manual re-zeroing capabilities
 
 ### Enterprise Features
 - **Multi-Monitor Support**: Intelligent window arrangement across available displays
 - **Workspace Management**: Professional workspace preparation and restoration
 - **Settings Persistence**: Configuration preservation across sessions
-- **Hardware Validation**: Comprehensive PAB protocol compliance and safety checking
+- **Hardware Validation**: Comprehensive Product Aware Board protocol compliance and safety checking
 - **Error Recovery**: Robust failure handling with graceful degradation
 
 ### User Experience
@@ -70,7 +70,7 @@ PAB Reader Graph is an enterprise-ready monitoring application for Portable Anal
 ## 📊 Technical Specifications
 
 ### Hardware Communication
-- PAB Protocol: Complete implementation with CRC validation
+- Product Aware Board Protocol: Complete implementation with CRC validation
 - Serial Communication: 115200 baud with automatic port detection
 - Data Rates: Real-time acquisition with sub-second responsiveness
 - Calibration: Configurable duration with statistical averaging
@@ -93,7 +93,7 @@ PAB Reader Graph is an enterprise-ready monitoring application for Portable Anal
 1. Launch PABReader.exe
 2. Configure calibration duration (default: 10 seconds)
 3. Select data output folder (default: ./Data)
-4. Choose PAB firmware version
+4. Choose Product Aware Board firmware version
 5. Select monitoring ports (1-8 available)
 6. Enable/disable automatic window arrangement
 
